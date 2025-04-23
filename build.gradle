@@ -1,0 +1,17 @@
+plugins {
+    id 'java'
+    id 'application' // Para configurar a aplicação principal
+}
+
+repositories {
+    mavenCentral() // Repositório para dependências
+}
+
+dependencies {
+    // JUnit 5 para testes unitários
+    testImplementation 'org.junit.jupiter:junit-jupiter:5.10.0'
+}
+
+test {
+    useJUnitPlatform() // Para usar JUnit 5
+}
