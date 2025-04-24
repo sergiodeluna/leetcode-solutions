@@ -5,7 +5,7 @@ Este repositório contém minhas soluções para desafios do LeetCode, organizad
 
 ## ✅ Easy
 
-### 🔍 Binary Search
+### Binary Search
 
 **Problema:**  
 Dado um array ordenado de inteiros e um número alvo, implemente uma busca binária para retornar o índice do alvo. Se o alvo não existir no array, retorne `-1`.
