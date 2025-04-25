@@ -1,0 +1,22 @@
+# Ignore arquivos de build
+/build/
+.gradle/
+
+# Ignore arquivos de sistema
+.DS_Store
+Thumbs.db
+
+# Ignore configurações de IDEs
+*.iml
+.idea/
+*.ipr
+*.iws
+.vscode/
+
+# Ignora logs e outros
+*.log
+
+# Mantém os arquivos importantes do Gradle
+!build.gradle
+!settings.gradle
+!gradle.properties
