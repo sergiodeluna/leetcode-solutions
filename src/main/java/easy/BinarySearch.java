@@ -1,6 +1,7 @@
 package easy;
 
 public class BinarySearch {
+
     public int search(int[] nums, int target) {
         int left = 0; // Primeira posição do array
         int right = nums.length - 1; // Última posição do array

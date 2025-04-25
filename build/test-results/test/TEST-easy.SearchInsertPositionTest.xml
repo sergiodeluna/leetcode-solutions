@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="easy.SearchInsertPositionTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2025-04-25T02:27:12" hostname="DESKTOP-4JRNKTD" time="0.027">
+  <properties/>
+  <testcase name="testElementShouldBeInsertedAtBeginning()" classname="easy.SearchInsertPositionTest" time="0.017"/>
+  <testcase name="testSingleElementArrayInsertAfter()" classname="easy.SearchInsertPositionTest" time="0.0"/>
+  <testcase name="testElementExistsInMiddle()" classname="easy.SearchInsertPositionTest" time="0.001"/>
+  <testcase name="testElementShouldBeInsertedInMiddle()" classname="easy.SearchInsertPositionTest" time="0.001"/>
+  <testcase name="testElementShouldBeInsertedAtEnd()" classname="easy.SearchInsertPositionTest" time="0.001"/>
+  <testcase name="testInsertIntoEmptyArray()" classname="easy.SearchInsertPositionTest" time="0.0"/>
+  <testcase name="testSingleElementArrayInsertBefore()" classname="easy.SearchInsertPositionTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

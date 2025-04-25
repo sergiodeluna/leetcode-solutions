@@ -3,7 +3,7 @@ Este repositório contém minhas soluções para desafios do LeetCode, organizad
 
 ---
 
-## ✅ Easy
+## Easy
 
 ### Binary Search
 
@@ -26,4 +26,30 @@ Implementei a busca binária tradicional, onde:
 ```java
 int[] nums = {-1, 0, 3, 5, 9, 12};
 int target = 9;
-int result = search(nums, target); // Retorna 4
+int result = search(nums, target); // Esperado 4
+```
+
+### Search Insert Position
+
+**Problema:**  
+Dado um array ordenado de inteiros distintos e um valor alvo, retorne o índice se o alvo for encontrado. Caso contrário, retorne o índice onde ele deveria ser inserido para manter a ordem.
+
+**Solução:**  
+Implementei a busca binária tradicional, onde:  
+- Utilizo dois ponteiros (`left` e `right`) que delimitam a parte do array em que o alvo pode estar.  
+- A cada iteração, comparo o valor central com o alvo.  
+  - Se forem iguais, retorno o índice.  
+  - Se o valor for menor, avanço o ponteiro da esquerda (`left = mid + 1`).  
+  - Se o valor for maior, movo o ponteiro da direita (`right = mid - 1`).  
+- Caso reste apenas um elemento (`left == right`), verifico se o alvo deve ser inserido antes ou depois desse valor.  
+- Complexidade: **O(log n)**
+
+**Código:** [`SearchInsertPosition.java`](src/main/java/easy/SearchInsertPosition.java)
+
+**Exemplo de uso:**
+
+```java
+int[] nums = {1, 3, 5, 6};
+int target = 5;
+int result = searchInsertPosition(nums, target); // Esperado 2
+```
