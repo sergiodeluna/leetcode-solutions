@@ -1,15 +1,5 @@
 package easy;
 
-class VersionControl {
-    // Suponha que a primeira versão com falha seja a versão 4
-    int bad = 4;
-
-    // Simula a API
-    boolean isBadVersion(int version) {
-        return version >= bad;
-    }
-}
-
 public class FirstBadVersion extends VersionControl {
 
     public int findFirstBadVersion(int n) {
@@ -40,6 +30,6 @@ public class FirstBadVersion extends VersionControl {
         FirstBadVersion firstBadVersion = new FirstBadVersion();
         int n = 5;
         int result = firstBadVersion.findFirstBadVersion(n);
-        System.out.println("Primeira versão ruim: " + result); // Esperado: 4
+        System.out.println("Primeira versão com falha: " + result); // Esperado: 4
     }
 }
