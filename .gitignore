@@ -1,22 +1,36 @@
-# Ignore arquivos de build
+# Ignorar arquivos de build do Gradle
 /build/
-.gradle/
+/.gradle/
 
-# Ignore arquivos de sistema
+# Ignorar arquivos de sistema operacional
 .DS_Store
 Thumbs.db
 
-# Ignore configurações de IDEs
-*.iml
+# Ignorar configurações do IntelliJ
 .idea/
+*.iml
 *.ipr
 *.iws
-.vscode/
 
-# Ignora logs e outros
+# Ignorar arquivos de logs e outros arquivos temporários
 *.log
+*.tmp
+*.swp
 
-# Mantém os arquivos importantes do Gradle
+# Ignorar pastas de cache do Gradle
+.gradle/
+
+# Ignorar pastas de compilação de classes
+/out/
+/target/
+/bin/
+
+# Ignorar arquivos de distribuição
+*.tar
+*.zip
+*.jar
+
+# Manter arquivos importantes do Gradle
 !build.gradle
 !settings.gradle
 !gradle.properties
